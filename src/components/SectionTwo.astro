@@ -1,0 +1,41 @@
+---
+import CtaButton from "./CtaButton.astro";
+import Sections from "./Sections.astro";
+---
+
+<img
+  class="order-1 w-full h-full object-cover"
+  src="/public/images/bg-curve-mobile.svg"
+  alt=""
+/>
+<Sections class="bg-light-grayish-blue mt-0">
+  <div class="order-2">
+    <h1 class="text-3xl text-very-dark-dlue px-7 font-bold-raleway">
+      Stay productive, wherever you are
+    </h1>
+    <p class="px-10 mx-7 text-base text-very-dark-dlue font-regular-sans">
+      Never let location be an issue when accessing your files. Fylo has you
+      covered for all of your file storage needs.
+    </p>
+    <p class="px-10 mx-7 text-base text-very-dark-dlue font-regular-sans">
+      Securely share files and folders with friends, family and colleagues for
+      live collaboration. No email attachments required!
+    </p>
+    <form action="" class="px-7">
+      <input
+        class="border text-left border-desaturated-blue rounded-md py-2 px-4 mt-7 w-[97%]"
+        type="email"
+        placeholder="Enter your email..."
+      />
+      <CtaButton class="mt-5" href="https://www.github.com/justcoddev">
+        See how Fylo works
+      </CtaButton>
+    </form>
+  </div>
+
+  <img
+    class="order-1 w-full mt-10 px-12"
+    src="/images/illustration-2.svg"
+    alt="illustracion-1"
+  />
+</Sections>
