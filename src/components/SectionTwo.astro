@@ -1,5 +1,7 @@
 ---
+import ArrowRight from "@/icons/ArrowRight.astro";
 import CtaButton from "./CtaButton.astro";
+import Icons from "./Icons.astro";
 import Sections from "./Sections.astro";
 ---
 
@@ -8,29 +10,37 @@ import Sections from "./Sections.astro";
   src="/public/images/bg-curve-mobile.svg"
   alt=""
 />
-<Sections class="bg-light-grayish-blue mt-0">
-  <div class="order-2">
-    <h1 class="text-3xl text-very-dark-dlue px-7 font-bold-raleway">
+<Sections class="bg-light-grayish-blue">
+  <div class="order-2 my-4">
+    <h1 class="text-xl my-8 text-very-dark-dlue px-7 font-bold-raleway">
       Stay productive, wherever you are
     </h1>
-    <p class="px-10 mx-7 text-base text-very-dark-dlue font-regular-sans">
-      Never let location be an issue when accessing your files. Fylo has you
-      covered for all of your file storage needs.
-    </p>
-    <p class="px-10 mx-7 text-base text-very-dark-dlue font-regular-sans">
-      Securely share files and folders with friends, family and colleagues for
-      live collaboration. No email attachments required!
-    </p>
-    <form action="" class="px-7">
-      <input
-        class="border text-left border-desaturated-blue rounded-md py-2 px-4 mt-7 w-[97%]"
-        type="email"
-        placeholder="Enter your email..."
-      />
-      <CtaButton class="mt-5" href="https://www.github.com/justcoddev">
+    <div
+      class="px-10 mx-4 text-base text-left text-desaturated-blue font-regular-sans"
+    >
+      <p>
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <br />
+      <p>
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
+    </div>
+    <div
+      class="px-7 flex justify-center mt-5 underline underline-offset-8 decoration-moderate-cyan"
+    >
+      <CtaButton
+        class="rounded-none bg-transparent text-moderate-cyan mx-0 my-0 px-0 mr-1 shadow-none"
+        href="https://www.github.com/justcoddev"
+      >
         See how Fylo works
       </CtaButton>
-    </form>
+      <Icons class="" href="https://www.linkedin.com/in/justcoddev">
+        <ArrowRight class="size-4 md:size-6" />
+      </Icons>
+    </div>
   </div>
 
   <img
