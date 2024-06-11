@@ -7,42 +7,68 @@ import Sections from "./Sections.astro";
 
 <img
   class="order-1 w-full h-full object-cover"
-  src="/public/images/bg-curve-mobile.svg"
+  src="/images/bg-curve-mobile.svg"
   alt=""
 />
 <Sections class="bg-light-grayish-blue">
   <div class="order-2 my-4">
-    <h1 class="text-xl my-8 text-very-dark-dlue px-7 font-bold-raleway">
-      Stay productive, wherever you are
-    </h1>
-    <div
-      class="px-10 mx-4 text-base text-left text-desaturated-blue font-regular-sans"
-    >
-      <p>
-        Never let location be an issue when accessing your files. Fylo has you
-        covered for all of your file storage needs.
-      </p>
-      <br />
-      <p>
-        Securely share files and folders with friends, family and colleagues for
-        live collaboration. No email attachments required!
-      </p>
+    <div class="pb-2">
+      <h1 class="text-xl my-8 text-very-dark-dlue px-7 font-bold-raleway">
+        Stay productive, wherever you are
+      </h1>
+      <div
+        class="pr-9 pl-5 mx-4 text-pretty text-base text-left text-desaturated-blue font-regular-sans"
+      >
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <br />
+        <p class="pr-10">
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
+        </p>
+      </div>
+      <div
+        class="px-7 flex justify-center mt-5 mb-1 items-center gap-3 underline underline-offset-8 decoration-moderate-cyan"
+      >
+        <CtaButton
+          class="rounded-none bg-transparent font-regular-raleway bg-opacity-0 pl-0 pr-0 px-0 py-0 my-0 text-moderate-cyan shadow-transparent"
+          href="https://www.github.com/justcoddev"
+        >
+          See how Fylo works
+          <Icons
+            class="rounded-full shadow-md p-1 flex items-center justify-center"
+            href="https://www.linkedin.com/in/justcoddev"
+          >
+            <ArrowRight class="size-3" />
+          </Icons>
+        </CtaButton>
+      </div>
     </div>
     <div
-      class="px-7 flex justify-center mt-5 underline underline-offset-8 decoration-moderate-cyan"
+      class="rounded border mb-14 border-light-grayish-blue shadow pl-8 pr-3 text-wrap py-1 mx-14 bg-white"
     >
-      <CtaButton
-        class="rounded-none bg-transparent text-moderate-cyan mx-0 my-0 px-0 mr-1 shadow-none"
-        href="https://www.github.com/justcoddev"
-      >
-        See how Fylo works
-      </CtaButton>
-      <Icons class="" href="https://www.linkedin.com/in/justcoddev">
-        <ArrowRight class="size-4 md:size-6" />
-      </Icons>
+      <p class="text-5xl font-bold text-left">"</p>
+      <p class="text-sm font-medium text-left text-very-dark-dlue">
+        Fylo has improved our team productivity by an order of magnitude. Since
+        making the switch our team has become a well-oiled collaboration
+        machine.
+      </p>
+
+      <div class="flex items-center py-3">
+        <img
+          class="rounded-full w-auto h-8 mr-4"
+          src="/images/avatar-testimonial.jpg"
+          alt=""
+        />
+        <div class="text-left">
+          <h2 class="font-bold-raleway text-sm">Kyle Burton</h2>
+          <p class="text-[0.563rem]">Founder & CEO, Huddle</p>
+        </div>
+      </div>
     </div>
   </div>
-
   <img
     class="order-1 w-full mt-10 px-12"
     src="/images/illustration-2.svg"
