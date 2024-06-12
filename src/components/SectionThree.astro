@@ -1,0 +1,30 @@
+---
+import CtaButton from "./CtaButton.astro";
+import Sections from "./Sections.astro";
+---
+
+<Sections class="py-12 bg-desaturated-blue">
+  <div class="order-1">
+    <h1 class="text-xl text-light-grayish-blue px-7 py-3 font-medium">
+      Get early access today
+    </h1>
+    <p class="px-10 mx-10 text-base text-light-grayish-blue font-regular-sans">
+      It only takes a minute to sign up and our free starter tier is extremely
+      generous. If you have any questions, our support team would be happy to
+      help you.
+    </p>
+  </div>
+  <form action="" class="px-7 order-2">
+    <input
+      class="border text-left text-sm border-desaturated-blue rounded-[3px] py-2 px-4 mt-7 w-[64%]"
+      type="email"
+      placeholder="email@example.com"
+    />
+    <CtaButton
+      class="mt-5 px-[3.5rem] font-bold-raleway"
+      href="https://www.github.com/justcoddev"
+    >
+      Get Started For Free
+    </CtaButton>
+  </form>
+</Sections>
